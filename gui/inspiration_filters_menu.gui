@@ -1,0 +1,132 @@
+window = {
+	name = "inspiration_filters_menu"
+	parentanchor = center
+	size = { 400 270 }
+	movable = no
+	layer = top
+	filter_mouse = all
+	alwaystransparent = no
+
+	using = Window_Background
+	using = Window_Decoration
+	using = Window_Movable
+
+	datacontext = "[GetVariableSystem]"
+	visible = "[GetVariableSystem.Exists( 'inspiration_filters_is_menu_visible' )]"
+
+	vbox = {
+		using = Window_Margins
+
+		header_pattern = { # title
+			layoutpolicy_horizontal = expanding
+
+			blockoverride "header_text"
+			{
+				text = "filters_menu_header_text"
+			}
+
+			blockoverride "button_close"
+			{
+				datacontext = "[GetVariableSystem]"
+				onclick = "[VariableSystem.Toggle( 'inspiration_filters_is_menu_visible' )]"
+			}
+		}
+
+		vbox = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+			vbox = {
+				layoutpolicy_horizontal = expanding
+				hbox = {
+					layoutpolicy_horizontal = expanding
+					margin_left = 36
+					margin_bottom = 15
+					button_checkbox_label = { # Legendary
+						layoutpolicy_horizontal = expanding
+						datacontext = "[GetScriptedGui('inspiration_filters_toggle_level_4_inspirations')]"
+						onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+						tooltip = "filters_menu_inspiration_level_4_tooltip"
+		
+						blockoverride "checkbox"
+						{
+							checked = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+						}
+		
+						blockoverride "text"
+						{
+							text = "filters_menu_inspiration_level_4_label"
+						}
+					}
+					expand = {}
+				}
+				hbox = {
+					layoutpolicy_horizontal = expanding
+					margin_left = 36
+					margin_bottom = 15
+					button_checkbox_label = { # Master
+						layoutpolicy_horizontal = expanding
+						datacontext = "[GetScriptedGui('inspiration_filters_toggle_level_3_inspirations')]"
+						onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+						tooltip = "filters_menu_inspiration_level_3_tooltip"
+		
+						blockoverride "checkbox"
+						{
+							checked = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+						}
+		
+						blockoverride "text"
+						{
+							text = "filters_menu_inspiration_level_3_label"
+						}
+					}
+					expand = {}
+				}
+				hbox = {
+					layoutpolicy_horizontal = expanding
+					margin_left = 36
+					margin_bottom = 15
+					button_checkbox_label = { # Competent
+						layoutpolicy_horizontal = expanding
+						datacontext = "[GetScriptedGui('inspiration_filters_toggle_level_2_inspirations')]"
+						onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+						tooltip = "filters_menu_inspiration_level_2_tooltip"
+		
+						blockoverride "checkbox"
+						{
+							checked = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+						}
+		
+						blockoverride "text"
+						{
+							text = "filters_menu_inspiration_level_2_label"
+						}
+					}
+					expand = {}
+				}
+				hbox = {
+					layoutpolicy_horizontal = expanding
+					margin_left = 36
+					margin_bottom = 15
+					button_checkbox_label = { # Normal
+						layoutpolicy_horizontal = expanding
+						datacontext = "[GetScriptedGui('inspiration_filters_toggle_level_1_inspirations')]"
+						onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+						tooltip = "filters_menu_inspiration_level_1_tooltip"
+		
+						blockoverride "checkbox"
+						{
+							checked = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+						}
+		
+						blockoverride "text"
+						{
+							text = "filters_menu_inspiration_level_1_label"
+						}
+					}
+					expand = {}
+				}
+			}
+			vbox = { layoutpolicy_vertical = expanding }
+		}
+	}
+}

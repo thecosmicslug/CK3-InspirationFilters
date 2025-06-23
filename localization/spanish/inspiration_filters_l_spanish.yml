@@ -1,0 +1,10 @@
+﻿l_spanish:
+  filters_menu_header_text: "Filtros de inspiración"
+  filters_menu_inspiration_level_4_label: "Mostrar inspiraciones legendarias"
+  filters_menu_inspiration_level_4_tooltip: "Si está marcado, recibirás notificaciones cuando los artesanos legendarios visiten tu corte."
+  filters_menu_inspiration_level_3_label: "Mostrar inspiraciones maestras"
+  filters_menu_inspiration_level_3_tooltip: "Si está marcado, recibirás notificaciones cuando los artesanos maestres visiten tu corte."
+  filters_menu_inspiration_level_2_label: "Mostrar inspiraciones competentes"
+  filters_menu_inspiration_level_2_tooltip: "Si está marcado, recibirás notificaciones cuando los artesanos competentes visiten tu corte."
+  filters_menu_inspiration_level_1_label: "Mostrar inspiraciones comunes"
+  filters_menu_inspiration_level_1_tooltip: "Si está marcado, recibirás notificaciones cuando los artesanos comunes visiten tu corte."

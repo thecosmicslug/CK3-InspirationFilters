@@ -1,0 +1,10 @@
+﻿l_english:
+  filters_menu_header_text: "Inspiration Filters"
+  filters_menu_inspiration_level_4_label: "Show Legendary Inspirations"
+  filters_menu_inspiration_level_4_tooltip: "If checked, you'll get notifications when legendary artisans visit your court."
+  filters_menu_inspiration_level_3_label: "Show Master Inspirations"
+  filters_menu_inspiration_level_3_tooltip: "If checked, you'll get notifications when master artisans visit your court."
+  filters_menu_inspiration_level_2_label: "Show Competent Inspirations"
+  filters_menu_inspiration_level_2_tooltip: "If checked, you'll get notifications when competent artisans visit your court."
+  filters_menu_inspiration_level_1_label: "Show Normal Inspirations"
+  filters_menu_inspiration_level_1_tooltip: "If checked, you'll get notifications when normal artisans visit your court."

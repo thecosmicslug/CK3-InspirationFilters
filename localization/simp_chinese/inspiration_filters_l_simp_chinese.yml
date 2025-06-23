@@ -1,0 +1,10 @@
+﻿l_simp_chinese:
+  filters_menu_header_text: "灵感过滤"
+  filters_menu_inspiration_level_4_label: "显示卓越灵感"
+  filters_menu_inspiration_level_4_tooltip: "选中时，你会在卓越工匠拜访你的宫廷时收到通知。"
+  filters_menu_inspiration_level_3_label: "显示大师灵感"
+  filters_menu_inspiration_level_3_tooltip: "选中时，你会在大师工匠拜访你的宫廷时收到通知。"
+  filters_menu_inspiration_level_2_label: "显示名作灵感"
+  filters_menu_inspiration_level_2_tooltip: "选中时，你会在名作工匠拜访你的宫廷时收到通知。"
+  filters_menu_inspiration_level_1_label: "显示普通灵感"
+  filters_menu_inspiration_level_1_tooltip: "选中时，你会在普通工匠拜访你的宫廷时收到通知。"

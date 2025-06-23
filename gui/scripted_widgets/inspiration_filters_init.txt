@@ -1,0 +1,1 @@
+﻿gui/inspiration_filters_menu.gui = inspiration_filters_menu

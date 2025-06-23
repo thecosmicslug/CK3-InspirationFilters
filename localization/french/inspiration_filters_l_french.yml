@@ -1,0 +1,10 @@
+﻿l_french:
+  filters_menu_header_text: "Filtres d'Inspiration"
+  filters_menu_inspiration_level_4_label: "Voir les Inspirations Légendaires"
+  filters_menu_inspiration_level_4_tooltip: "Si cette case est cochée, vous serez notifié lorsque des artisans légendaires visitent votre cour."
+  filters_menu_inspiration_level_3_label: "Voir les Inspirations de Maître"
+  filters_menu_inspiration_level_3_tooltip: "Si cette case est cochée, vous serez notifié lorsque des maîtres artisans visitent votre cour."
+  filters_menu_inspiration_level_2_label: "Voir les Inspirations de Qualité"
+  filters_menu_inspiration_level_2_tooltip: "Si cette case est cochée, vous serez notifié lorsque des artisans compétents visitent votre cour."
+  filters_menu_inspiration_level_1_label: "Voir les Inspirations Normales"
+  filters_menu_inspiration_level_1_tooltip: "Si cette case est cochée, vous serez notifié lorsque des artisans sans compétence particulière visitent votre cour."

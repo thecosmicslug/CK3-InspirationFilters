@@ -1,0 +1,10 @@
+﻿l_german:
+  filters_menu_header_text: "Inspirations Filter"
+  filters_menu_inspiration_level_4_label: "Legendäre Inspirationen anzeigen"
+  filters_menu_inspiration_level_4_tooltip: "Wenn diese Option aktiviert ist, werden Sie benachrichtigt, sobald legendäre Handwerksmeister Ihren Hof besuchen."
+  filters_menu_inspiration_level_3_label: "Meisterhafte Inspirationen anzeigen"
+  filters_menu_inspiration_level_3_tooltip: "Wenn diese Option aktiviert ist, werden Sie benachrichtigt, sobald Handwerksmeister Ihren Hof besuchen."
+  filters_menu_inspiration_level_2_label: "Kompetente Inspirationen anzeigen"
+  filters_menu_inspiration_level_2_tooltip: "Wenn diese Option aktiviert ist, werden Sie benachrichtigt, sobald kompetente Handwerker Ihren Hof besuchen."
+  filters_menu_inspiration_level_1_label: "Normale Inspirationen anzeigen"
+  filters_menu_inspiration_level_1_tooltip: "Wenn diese Option aktiviert ist, werden Sie benachrichtigt, sobald normale Handwerker Ihren Hof besuchen."

@@ -1,0 +1,87 @@
+﻿is_legendary_artisan = {
+	inspiration = { has_inspiration_type = $INSPIRATION_TYPE$_inspiration }
+	$INSPIRATION_TYPE$_inspiration_average_skill_value >= high_inspiration_skill
+}
+
+is_masterful_artisan = {
+	inspiration = { has_inspiration_type = $INSPIRATION_TYPE$_inspiration }
+	$INSPIRATION_TYPE$_inspiration_average_skill_value >= medium_inspiration_skill
+	$INSPIRATION_TYPE$_inspiration_average_skill_value < high_inspiration_skill
+}
+
+is_competent_artisan = {
+	inspiration = { has_inspiration_type = $INSPIRATION_TYPE$_inspiration }
+	$INSPIRATION_TYPE$_inspiration_average_skill_value >= low_inspiration_skill
+	$INSPIRATION_TYPE$_inspiration_average_skill_value < medium_inspiration_skill
+}
+
+is_decent_artisan = {
+	inspiration = { has_inspiration_type = $INSPIRATION_TYPE$_inspiration }
+	$INSPIRATION_TYPE$_inspiration_average_skill_value < low_inspiration_skill
+}
+
+can_forge_this_artifact = {
+	OR = {
+		is_$INSPIRATION_LEVEL$_artisan = { INSPIRATION_TYPE = smith }
+		is_$INSPIRATION_LEVEL$_artisan = { INSPIRATION_TYPE = artisan }
+		is_$INSPIRATION_LEVEL$_artisan = { INSPIRATION_TYPE = weapon }
+		is_$INSPIRATION_LEVEL$_artisan = { INSPIRATION_TYPE = armor }
+		is_$INSPIRATION_LEVEL$_artisan = { INSPIRATION_TYPE = book }
+		is_$INSPIRATION_LEVEL$_artisan = { INSPIRATION_TYPE = weaver }
+		is_$INSPIRATION_LEVEL$_artisan = { INSPIRATION_TYPE = adventure }
+		is_$INSPIRATION_LEVEL$_artisan = { INSPIRATION_TYPE = alchemy }
+	}
+}
+
+can_forge_legendary_artifact = {
+	can_forge_this_artifact = {
+		INSPIRATION_LEVEL = legendary
+	}
+}
+
+can_forge_masterful_artifact = {
+	can_forge_this_artifact = {
+		INSPIRATION_LEVEL = masterful
+	}
+}
+
+can_forge_competent_artifact = {
+	can_forge_this_artifact = {
+		INSPIRATION_LEVEL = competent
+	}
+}
+
+can_forge_decent_artifact = {
+	can_forge_this_artifact = {
+		INSPIRATION_LEVEL = decent
+	}
+}
+
+inspiration_filters_injection = {
+	OR = {
+		AND = {
+			NOT = {
+				has_character_flag = ignore_level_1_inspirations
+			}
+			can_forge_decent_artifact = yes
+		}
+		AND = {
+			NOT = {
+				has_character_flag = ignore_level_2_inspirations
+			}
+			can_forge_competent_artifact = yes
+		}
+		AND = {
+			NOT = {
+				has_character_flag = ignore_level_3_inspirations
+			}
+			can_forge_masterful_artifact = yes
+		}
+		AND = {
+			NOT = {
+				has_character_flag = ignore_level_4_inspirations
+			}
+			can_forge_legendary_artifact = yes
+		}
+	}
+}

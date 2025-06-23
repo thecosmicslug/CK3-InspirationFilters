@@ -1,0 +1,112 @@
+﻿inspiration_filters_toggle_level_1_inspirations = {
+	scope = character
+	is_shown = {
+		NOT = {
+			has_character_flag = ignore_level_1_inspirations
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				has_character_flag = ignore_level_1_inspirations
+			}
+			remove_character_flag = ignore_level_1_inspirations
+		}
+		else = {
+			add_character_flag = ignore_level_1_inspirations
+		}
+	}
+}
+
+inspiration_filters_toggle_level_2_inspirations = {
+	scope = character
+	is_shown = {
+		NOT = {
+			has_character_flag = ignore_level_2_inspirations
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				has_character_flag = ignore_level_2_inspirations
+			}
+			remove_character_flag = ignore_level_2_inspirations
+		}
+		else = {
+			add_character_flag = ignore_level_2_inspirations
+		}
+	}
+}
+
+inspiration_filters_toggle_level_3_inspirations = {
+	scope = character
+	is_shown = {
+		NOT = {
+			has_character_flag = ignore_level_3_inspirations
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				has_character_flag = ignore_level_3_inspirations
+			}
+			remove_character_flag = ignore_level_3_inspirations
+		}
+		else = {
+			add_character_flag = ignore_level_3_inspirations
+		}
+	}
+}
+
+inspiration_filters_toggle_level_4_inspirations = {
+	scope = character
+	is_shown = {
+		NOT = {
+			has_character_flag = ignore_level_4_inspirations
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				has_character_flag = ignore_level_4_inspirations
+			}
+			remove_character_flag = ignore_level_4_inspirations
+		}
+		else = {
+			add_character_flag = ignore_level_4_inspirations
+		}
+	}
+}
+
+inspiration_filters_potential_inspirations = {
+	scope = character
+	is_shown = {
+		always = yes
+	}
+	is_valid = {
+		has_dlc_feature = royal_court
+		has_royal_court = yes
+	}
+	effect = {
+		clear_variable_list = potential_inspirations
+		every_courtier_or_guest = {
+			limit = {
+				exists = inspiration
+				has_completed_inspiration = no
+				inspiration = {
+					NOT = { exists = inspiration_sponsor }
+				}
+				inspiration_filters_injection = yes
+			}
+
+			inspiration = {
+				root = {
+					add_to_variable_list = {
+						name = potential_inspirations
+						target = prev
+					}
+				}
+			}
+		}
+	}
+}

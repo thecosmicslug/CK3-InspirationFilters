@@ -1,0 +1,45 @@
+﻿on_death = {
+	on_actions = {
+		inspiration_filters_on_death
+	}
+}
+
+inspiration_filters_on_death = {
+	trigger = {
+		exists = player_heir
+	}
+	effect = {
+		if = {
+			limit = {
+				has_character_flag = ignore_level_1_inspirations
+			}
+			player_heir = {
+				add_character_flag = ignore_level_1_inspirations
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = ignore_level_2_inspirations
+			}
+			player_heir = {
+				add_character_flag = ignore_level_2_inspirations
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = ignore_level_3_inspirations
+			}
+			player_heir = {
+				add_character_flag = ignore_level_3_inspirations
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = ignore_level_4_inspirations
+			}
+			player_heir = {
+				add_character_flag = ignore_level_4_inspirations
+			}
+		}
+	}
+}

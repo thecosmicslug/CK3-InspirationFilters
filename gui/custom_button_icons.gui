@@ -1,0 +1,8 @@
+types CustomButtonIcons
+{
+	type btn_icon_list_check = button_icon
+	{
+		texture = "gfx/interface/icons/flat_icons/list_check.dds"
+		framesize = { 20 20 }
+	}
+}

@@ -1,0 +1,10 @@
+﻿l_russian:
+  filters_menu_header_text: "Фильтр вдохновении"
+  filters_menu_inspiration_level_4_label: "Показывать легендарных мастеров"
+  filters_menu_inspiration_level_4_tooltip: "Если флажок установлен, вы будете получать уведомления, когда легендарные ремесленники посетят ваш двор."
+  filters_menu_inspiration_level_3_label: "Показывать знаменитых мастеров"
+  filters_menu_inspiration_level_3_tooltip: "Если флажок установлен, вы будете получать уведомления, когда знаменитые мастера-ремесленники посетят ваш двор."
+  filters_menu_inspiration_level_2_label: "Показывать мастеров редкостей"
+  filters_menu_inspiration_level_2_tooltip: "Если флажок установлен, вы будете получать уведомления, когда мастера редкостей посетят ваш двор."
+  filters_menu_inspiration_level_1_label: "Показывать обычных мастеров"
+  filters_menu_inspiration_level_1_tooltip: "Если флажок установлен, вы будете получать уведомления, когда обычные ремесленники посетят ваш двор."

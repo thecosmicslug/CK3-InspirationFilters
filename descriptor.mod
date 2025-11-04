@@ -1,4 +1,4 @@
-version="1.0.0"
+version="2.0.0"
 tags={
 	"Gameplay"
 	"Fixes"
@@ -6,4 +6,4 @@ tags={
 }
 name="Inspiration Filters"
 picture="thumbnail.png"
-supported_version="1.16.*"
+supported_version="1.18.*"

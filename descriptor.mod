@@ -4,6 +4,6 @@ tags={
 	"Fixes"
 	"Utilities"
 }
-name="Inspiration Filters Fixed"
+name="Inspiration Filters"
 picture="thumbnail.png"
 supported_version="1.18.*"

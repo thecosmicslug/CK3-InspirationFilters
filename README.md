@@ -18,3 +18,4 @@ This mod adds a small menu which lets you filter inspiration notifications by th
 
 ### UPDATE ###
 Now the filters apply to inspirations list in the court screen too
+

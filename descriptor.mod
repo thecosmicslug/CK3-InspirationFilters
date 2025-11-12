@@ -7,3 +7,4 @@ tags={
 name="Inspiration Filters"
 picture="thumbnail.png"
 supported_version="1.18.*"
+remote_file_id="3599551004"

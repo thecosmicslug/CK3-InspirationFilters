@@ -7,7 +7,11 @@ This mod has been fixed by me for
 **v1.18!**
 
 It overwrites **'gui/window_inspirations.gui'** so may not be compatible with other mods that also modify that file.
+
 It also modifies the **'action_has_courtier_or_guest_with_inspiration'** function.
+
+
+Thankyou to buzz3931 for providing me with Korean translation
 
 This is my first attempt at CK3 modding, Improvements and contributions are welcome!
 

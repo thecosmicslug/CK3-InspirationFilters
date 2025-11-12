@@ -5,9 +5,6 @@ action_has_courtier_or_guest_with_inspiration = {
 	check_create_action = {
 		if = {
 			limit = {
-				has_dlc_feature = royal_court
-				has_royal_court = yes
-
 				any_courtier_or_guest = {
 					exists = inspiration
 					has_completed_inspiration = no

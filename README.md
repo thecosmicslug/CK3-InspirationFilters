@@ -11,6 +11,8 @@ It also modifies the **'action_has_courtier_or_guest_with_inspiration'** functio
 
 This is my first attempt at CK3 modding, Improvements and contributions are welcome!
 
+This is also hosted on the Steam Workshop at: https://steamcommunity.com/sharedfiles/filedetails/?id=3599551004
+
 
 ## ORIGINAL DESCRIPTION: ##
 

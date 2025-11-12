@@ -1,4 +1,4 @@
-action_has_courtier_or_guest_with_inspiration = {
+﻿action_has_courtier_or_guest_with_inspiration = {
 	type = alert
 	soundeffect = "event:/DLC/EP1/SFX/UI/Notifications/inspiration_inspired_individual"
 

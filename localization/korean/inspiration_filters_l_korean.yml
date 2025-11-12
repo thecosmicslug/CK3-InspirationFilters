@@ -1,0 +1,10 @@
+﻿l_korean:
+ filters_menu_header_text: "영감 필터"
+ filters_menu_inspiration_level_4_label: "전설적인 영감 표시"
+ filters_menu_inspiration_level_4_tooltip: "선택 시, 전설적인 장인이 궁정을 방문하면 알림을 받습니다."
+ filters_menu_inspiration_level_3_label: "대가 영감 표시"
+ filters_menu_inspiration_level_3_tooltip: "선택 시, 대가 장인이 궁정을 방문하면 알림을 받습니다."
+ filters_menu_inspiration_level_2_label: "유능한 영감 표시"
+ filters_menu_inspiration_level_2_tooltip: "선택 시, 유능한 장인이 궁정을 방문하면 알림을 받습니다."
+ filters_menu_inspiration_level_1_label: "일반 영감 표시"
+ filters_menu_inspiration_level_1_tooltip: "선택 시, 일반 장인이 궁정을 방문하면 알림을 받습니다."
